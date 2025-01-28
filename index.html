@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Small View Google Map</title>
+    <title>Artemis Hospital Location</title>
     <style>
         /* General styles */
         body {
@@ -17,6 +17,7 @@
             align-items: center;
             height: 100vh;
             text-align: center;
+            flex-direction: column;
         }
 
         h1 {
@@ -34,7 +35,7 @@
             width: 100%;
             max-width: 500px; /* Max width for the map */
             transition: transform 0.3s ease, box-shadow 0.3s ease;
-            margin: 0 auto;
+            margin: 20px 0;
         }
 
         .map-card:hover {
@@ -82,22 +83,18 @@
 </head>
 <body>
     <div>
-        <h1>JECRC University Location</h1>
+        <h1>Artemis Hospital Location</h1>
         <div class="map-card">
             <div class="map-container">
-                <!-- Link to the full Google Maps page -->
-                <a href="https://www.google.com/maps/place/JECRC+University/@26.8625268,75.7261874,12z/data=!4m6!3m5!1s0x396dc892b8f05399:0x43fbca7105eca800!8m2!3d26.8625268!4d75.7963174!16s%2Fg%2F11c1z3c9f4?entry=ttu" target="_blank"></a>
-                <!-- Embedded Google Map -->
+                <!-- Embedded Google Map 2 -->
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113897.27913275512!2d75.7261873737321!3d26.862526788748752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396dc892b8f05399%3A0x43fbca7105eca800!2sJECRC%20University!5e0!3m2!1sen!2sin!4v1738061390850!5m2!1sen!2sin"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448915.40980740875!2d76.78920241897191!3d28.47497960042116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1883aaaaaaab%3A0x404085140375fa28!2sArtemis%20Hospital%20Gurgaon%20%7C%20Best%20Hospital%20in%20Gurgaon!5e0!3m2!1sen!2sin!4v1738065590445!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen=""
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <!-- Footer with additional information -->
             <div class="map-footer">
-                <p>Click to view on <a href="https://www.google.com/maps/place/JECRC+University/@26.8625268,75.7261874,12z/data=!4m6!3m5!1s0x396dc892b8f05399:0x43fbca7105eca800!8m2!3d26.8625268!4d75.7963174!16s%2Fg%2F11c1z3c9f4?entry=ttu" target="_blank">Google Maps</a>.</p>
+                <p>Click to view on <a href="https://www.google.com/maps/place/Artemis+Hospital+Gurgaon+%7C+Best+Hospital+in+Gurgaon/@28.4749796,76.7892024,12z/data=!4m7!3m6!1s0x390d1883aaaaaaab%3A0x404085140375fa28!8m2!3d28.4749796!4d76.7892024!9m1!1b1!16s%2Fg%2F11c1z3c9f4?entry=ttu" target="_blank">Google Maps</a>.</p>
             </div>
         </div>
     </div>
